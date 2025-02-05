@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from typing import List, Optional
+from typing import List
 from sentence_transformers import SentenceTransformer
 
 from services.db import connect
